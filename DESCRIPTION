@@ -1,0 +1,11 @@
+Package: nyuhmtR
+Title: NY-uHMT data processing toolbox
+Version: 0.1
+Author: Adrian Pena
+Description: The nyuhmtR contains a suite of tools to access, process, and
+  visualize NY-uHMT data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
