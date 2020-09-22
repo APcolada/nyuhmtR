@@ -1,5 +1,5 @@
 #' A uHMT Get Data Function
-#'
+#' 
 #' This function downloads uHMT data files from the NOAA CESSRST online database.
 #' @param omit.siten Which stations (identified by station number) would you like to not download. Defaults to all sites except the first one. Thus only site 1 data will download.
 #' @examples
@@ -7,7 +7,6 @@
 #' uHMT_download(omit_siten = c(4,17,19))
 
 uHMT_download <- function(omit.siten = c(2:19)){
-  ## Description: downloads uHMT data files from NOAA CREST online database
   url.df <- data.frame(NYuHMTdb = rep("https://datadb.noaacrest.org/public/uhmt/Data/",19),
                        listofsites = c("1_QBG","2_QCC","3_REM","4_BPL","5_MTP","6_DKN","7_WBG","8_PGD",
                                        "9_FRW","10_BAY","11_BPK","12_ERV","13_AST","14_HBR","15_WWM","16_JHS",
