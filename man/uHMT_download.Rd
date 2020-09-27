@@ -13,6 +13,6 @@ uHMT_download(omit.siten = c(2:19))
 This function downloads uHMT data files from the NOAA CESSRST online database.
 }
 \examples{
-## Will download all uHMT station's data except station numbers 4, 17, and 19
-uHMT_download(omit_siten = c(4,17,19))
+## The below expression will download all uHMT station's data except station numbers 4, 17, and 19
+uhmt_ls <- uHMT_download(omit.siten = c(4,17,19))
 }

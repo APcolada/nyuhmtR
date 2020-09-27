@@ -2,6 +2,7 @@ Package: nyuhmtR
 Title: NY-uHMT data processing toolbox
 Version: 0.1
 Author: Adrian Pena
+Maintainer: Adrian Pena <adrian.i.pena@gmail.com>
 Description: The nyuhmtR contains a suite of tools to access, process, and
   visualize NY-uHMT data.
 Depends:
@@ -11,7 +12,7 @@ Imports:
   tidyverse (>= 1.3.0),
   reshape2 (>= 1.4.4),
   ggplot2 (>= 3.3.2),
-  Rcolorbrewer (>= 1.1.2),
+  RColorBrewer (>= 1.1.2),
   moments (>= 0.14),
   extRemes (>= 2.0.12)
 Suggests:

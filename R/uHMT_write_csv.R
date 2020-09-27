@@ -4,6 +4,7 @@
 #' @param lsofuhmt a list containing one data frame per station.
 #' @param filename a string to assign to the beginning of the csv filename. This arguement is optional, where the default is "uhmt_csv_stationname.csv".
 #'
+#' @export
 
 
 ## Write csv files from a list of uhmt stations data
